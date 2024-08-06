@@ -1,0 +1,13 @@
+altgraph==0.17.4
+numpy==2.0.1
+packaging==24.1
+pefile==2023.2.7
+pyasn1==0.6.0
+pyinstaller==6.9.0
+pyinstaller-hooks-contrib==2024.7
+PySimpleGUI==4.70.1
+pywin32-ctypes==0.2.2
+rsa==4.9
+scipy==1.14.0
+setuptools==72.1.0
+wheel==0.44.0
