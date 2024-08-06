@@ -47,6 +47,14 @@ cd npy2mat
 python npy2mat.py
 ```
 
+## Build Executable
+
+To build the executable yourself, run:
+```bash
+pyinstaller npy2mat.spec
+```
+This assumes that you have the necessary requirements installed.
+
 ## Contribute
 
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
