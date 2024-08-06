@@ -8,14 +8,6 @@ A simple GUI-based tool for converting NumPy `.npy` files to MATLAB `.mat` files
 - **Batch Conversion**: Convert all `.npy` files in a directory to `.mat` format in one go.
 - **Logging**: Keep track of conversion processes and errors with detailed logging.
 
-## Requirements
-
-You can install the required packages using the following command:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage
 
 ### GUI
@@ -45,6 +37,14 @@ cd npy2mat
 2. Run the application:
 ```bash
 python npy2mat.py
+```
+
+## Requirements
+
+You can install the required packages using the following command:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Build Executable
