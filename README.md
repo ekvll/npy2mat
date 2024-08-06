@@ -1,13 +1,12 @@
 # npy2mat
 
-A simple GUI-based tool for converting NumPy `.npy` files to MATLAB `.mat` files using Python's PySimpleGUI, NumPy, and SciPy libraries.
+A simple GUI-based tool for converting NumPy `.npy` files to MATLAB `.mat` files.
 
 ## Features
 
 - **User-Friendly Interface**: Select directories for input `.npy` files and output `.mat` files with ease.
 - **Batch Conversion**: Convert all `.npy` files in a directory to `.mat` format in one go.
 - **Logging**: Keep track of conversion processes and errors with detailed logging.
-- **Contact Info**: Easily accessible information to contact the creator for support or inquiries.
 
 ## Requirements
 
@@ -23,15 +22,17 @@ pip install -r requirements.txt
 
 Download the GUI executable file here: https://nppd.se/npy2mat/npy2mat.exe
 
+![alt text](img/gui.png)
+
 * Browse and select the directory containing the `.npy` files.
 * Browse and select the target directory to save the converted `.mat` files.
 * Click the **Convert** button to start the conversion process.
 * Click the **Cancel** button to close the application.
 * Click the **Contact Info** button to view the creator's contact information.
 
-When the conversion is completed, the console will look like something like this:
+When the conversion is finalized, the console will look something like this:
 
-![alt text](img/image.png)
+![alt text](img/console.png)
 
 ### Commande Line Interface
 
@@ -45,8 +46,6 @@ cd npy2mat
 ```bash
 python npy2mat.py
 ```
-
-
 
 ## Contribute
 
