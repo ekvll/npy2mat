@@ -1,6 +1,6 @@
 # NPY to MAT Converter
 
-A simple GUI-based tool for converting `.npy` files to `.mat` files using Python's PySimpleGUI, NumPy, and SciPy libraries.
+A simple GUI-based tool for converting NumPy `.npy` files to MATLAB `.mat` files using Python's PySimpleGUI, NumPy, and SciPy libraries.
 
 ## Features
 
@@ -11,15 +11,10 @@ A simple GUI-based tool for converting `.npy` files to `.mat` files using Python
 
 ## Requirements
 
-- Python 3.x
-- PySimpleGUI
-- NumPy
-- SciPy
-
 You can install the required packages using the following command:
 
 ```bash
-pip install PySimpleGUI numpy scipy
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -44,6 +39,45 @@ python npy2mat.py
 
 When the conversion is completed, the console will look like something like this:
 ![alt text](image.png)
+
+## Contribute
+
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+
+1. **Fork the Repository**:
+   Click the "Fork" button at the top right corner of this repository to create a copy of the repository in your GitHub account.
+
+2. **Clone Your Fork**:
+   Clone your forked repository to your local machine:
+   ```bash
+   git clone https://github.com/ekvll/npy2mat.git
+   cd npy2mat
+   ```
+
+3. **Create a Branch**:
+   Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-or-bugfix-name
+   ```
+
+4. **Make Your Changes**:
+   Make the necessary changes to the codebase.
+
+5. **Commit Your Changes**:
+   Commit your changes with a descriptive commit message:
+   ```bash
+   git add .
+   git commit -m "Description of the changes made"
+   ```
+
+6. **Push to Your Fork**:
+   Push your changes to your forked repository:
+   ```bash
+   git push origin feature-or-bugfix-name
+   ```
+
+7. **Create a Pull Request**:
+   Go to the original repository on GitHub and click the "New Pull Request" button. Select your branch from the "compare" dropdown and submit the pull request.
 
 ## Contact
 For any questions or support, please contact:
