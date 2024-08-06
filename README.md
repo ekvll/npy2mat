@@ -26,7 +26,7 @@ pip install PySimpleGUI numpy scipy
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/npy2mat.git
+git clone https://github.com/ekvll/npy2mat.git
 cd npy2mat
 ```
 

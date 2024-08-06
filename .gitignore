@@ -1,3 +1,7 @@
+# Data files
+in/
+out/
+
 # Distribution / packaging
 build/
 dist/
