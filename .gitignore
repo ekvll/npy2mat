@@ -5,6 +5,3 @@ out/
 # Distribution / packaging
 build/
 dist/
-
-# Image files
-*.png

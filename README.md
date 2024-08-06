@@ -31,14 +31,15 @@ python npy2mat.py
 ```
 
 3. Using the GUI:
-* Browse and selecet the directory containing the `.npy` files.
+* Browse and select the directory containing the `.npy` files.
 * Browse and select the target directory to save the converted `.mat` files.
 * Click the **Convert** button to start the conversion process.
 * Click the **Cancel** button to close the application.
 * Click the **Contact Info** button to view the creator's contact information.
 
 When the conversion is completed, the console will look like something like this:
-![alt text](image.png)
+
+![alt text](img/image.png)
 
 ## Contribute
 
