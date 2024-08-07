@@ -2,7 +2,7 @@
 
 block_cipher = None
 
-a = Analysis(['npy2mat.py'],
+a = Analysis(['npy2mat/main.py'],
 pathex=['.'],
 binaries=[],
 datas=[],
